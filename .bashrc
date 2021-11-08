@@ -5,6 +5,11 @@ fi
 
 export PS1="[\@] (\[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;1m\]@\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]) \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;11m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
+# oh-my-posh
+eval "$(oh-my-posh --init --shell bash --config ~/dotfiles/dignojrteogalbo.omp.json)"
+
+
+
 # Add colors to Terminal
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
@@ -21,12 +26,12 @@ cd() {
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/dotfiles/.bash_aliases ]; then
+    . ~/dotfiles/.bash_aliases
 fi
 
-if [ -f ~/.bash_functions ]; then
-    . ~/.bash_functions
+if [ -f ~/dotfiles/.bash_functions ]; then
+    . ~/dotfiles/.bash_functions
 fi
 
 # don't put duplicate lines or lines starting with space in the history.
