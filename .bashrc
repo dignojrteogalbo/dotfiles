@@ -8,13 +8,11 @@ export PS1="[\@] (\[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5
 # oh-my-posh
 eval "$(oh-my-posh --init --shell bash --config ~/dotfiles/dignojrteogalbo.omp.json)"
 
-
-
 # Add colors to Terminal
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-export BASH_SILENCE_DPRECATION_WARNING=1
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # call ls after cd to directory
 cd() {

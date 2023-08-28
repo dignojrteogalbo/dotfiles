@@ -5,11 +5,6 @@
       "alignment": "left",
       "segments": [
         {
-          "style": "plain",
-          "type": "text",
-          "template": "\n"
-        },
-        {
           "background": "#d3d7cf",
           "foreground": "#000000",
           "leading_diamond": "\u256d\u2500\ue0b2",

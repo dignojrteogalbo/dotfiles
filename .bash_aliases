@@ -1,2 +1,6 @@
 alias ls="exa --grid --across --all --group-directories-first --sort="name" --color-scale"
 alias del="rm -rfi"
+alias rm="rm -i"
+alias gs="git status"
+alias gp="git pull"
+alias gg="git log --oneline --graph --all"
