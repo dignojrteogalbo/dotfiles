@@ -8,3 +8,6 @@ test $? -eq 0 || exit 1 "you should have sudo privilege to run this script"
 apt-get update  # To get the latest package lists
 apt-get install exa -y
 apt-get install command-not-found -y
+apt-get install fzf -y
+apt-get install ripgrep -y
+apt-get install bat -y
