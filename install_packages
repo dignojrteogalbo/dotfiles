@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 set -eu -o pipefail # fail on error , debug all lines
 
@@ -11,3 +11,6 @@ apt-get install command-not-found -y
 apt-get install fzf -y
 apt-get install ripgrep -y
 apt-get install bat -y
+apt-get install curl -y
+apt-get install unzip -y
+curl -s https://ohmyposh.dev/install.sh | bash -s
