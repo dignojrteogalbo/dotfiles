@@ -6,6 +6,7 @@ fi
 export PS1="[\@] (\[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[\033[38;5;1m\]@\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;14m\]\w\[$(tput sgr0)\]) \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;11m\]\\$\[$(tput sgr0)\] \[$(tput sgr0)\]"
 
 # oh-my-posh
+export PATH=$PATH:~/.local/bin
 eval "$(oh-my-posh --init --shell bash --config ~/dotfiles/dignojrteogalbo.omp.json)"
 
 # Add colors to Terminal
